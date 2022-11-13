@@ -5,13 +5,27 @@ html {
 body {
   font-family: ' Inter ', sans-serif;
   line-height: 1.6;
+  margin: 20px;
+  padding: 20px;
 }
 
-h1,
-h2,
+h1 {
+  font-size: 30px;
+  color: #c30052;
+}
+h2{
+  font-size: 25px;
+  color: #333;
+  text-align: center;
+  margin: auto;
+}
+h3 {
+  font-size: 15px;
+  color: #fff;
+}
 p {
-  margin: 0;
-  padding: 0;
+  font-size: 13px;
+  color: lightgray;
 }
 
 .container {
@@ -24,13 +38,25 @@ p {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   min-width: 25rem;
+  margin: 10px;
+  padding: 10px;
 }
 
 .card-horizontal {
-  border-radius: 0.7rem;
-  box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   max-width: 32rem;
 }
+
+.card--wind {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+.card--flame {
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+.card--ice {
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%)
+}
+
+
 
 .box {
   width: 100%;
@@ -39,16 +65,40 @@ p {
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
 }
 
+.box--wind {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+.box--ice {
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%)
+}
+.box--flame {
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+
 hr {
   border: 1px solid rgba(51, 51, 51, 0.062);
 }
 
 button {
+  font-size: 13px;
+  color: white;
   border: none;
   border-radius: 0.3rem;
   box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.444);
   cursor: pointer;
   display: block;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+.button--wind {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+.button--ice {
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%)
+}
+.button--flame {
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
 }
 
 .wrapper {
