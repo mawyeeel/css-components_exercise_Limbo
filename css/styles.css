@@ -68,11 +68,11 @@ p {
 .box--wind {
   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
-.box--ice {
-  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%)
-}
 .box--flame {
   background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+.box--ice {
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%)
 }
 
 hr {
@@ -80,13 +80,13 @@ hr {
 }
 
 button {
-  font-size: 13px;
-  color: white;
   border: none;
   border-radius: 0.3rem;
   box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.444);
   cursor: pointer;
   display: block;
+  font-size: 13px;
+  color: white;
   margin: auto;
   padding: 10px 20px;
 }
@@ -94,11 +94,11 @@ button {
 .button--wind {
   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
-.button--ice {
-  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%)
-}
 .button--flame {
   background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+.button--ice {
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%)
 }
 
 .wrapper {
